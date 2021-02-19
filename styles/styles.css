@@ -1,0 +1,294 @@
+@charset "utf-8";
+body {
+	color: #191919;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 25px;
+	background-image: url(../image/bokeh.jpg);
+	background-size: cover;
+}
+#container {
+	width: 1280px;
+	height: auto;
+	background-color: white;
+	margin: auto;
+}
+aside h3 {
+	font-size: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: black;
+}
+main {
+	width: 1100px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	height: 2537px;
+
+}
+.submit_btn {
+	width: 80px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #6BE7FF;
+	color: #FFFFFF;
+	font-size: 16px;
+	
+}
+footer p {
+	text-align: center;
+	font-weight: 900;
+	padding-top: 20px;
+}
+
+
+.submit_btn:hover{
+	-webkit-box-shadow: 6px 6px 35px 1px #000000;
+	box-shadow: 6px 6px 35px 1px #000000;
+}
+
+article h1, h2, h3{
+	font-family: sanvito-pro-display, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 50px;
+	color: #6BE7FF;
+}
+
+article h2{
+	font-size: 30px;
+}
+
+article h3{
+	font-size: 20px;
+}
+img {
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	float: right;
+}
+#floatimagleleft   {
+	float: left;
+
+}
+.floatimagelet {
+	float: left;
+}
+
+article {
+	margin-bottom: 10px;
+}
+
+
+article p {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+header  {
+	width: 1280px;
+	height: 250px;
+	background-image: url(../image/header.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 35px;
+	
+}
+nav {
+	width: 1280px;
+	height: 50px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: 18px;
+	top: 0px;
+	position: fixed;
+	background-color: #FFFFFF;
+	border-bottom: thin solid #6BE7FF;
+}
+nav li {
+	display: block;
+	list-style-type: none;
+	float: left;
+	margin: 0px 60px 0px 0px;
+	width: 80px;
+	font-size: 18pt;
+	
+}
+
+/* Custom nav bar links */
+nav a:link {
+	color: #6BE7FF;
+	text-decoration: none;
+	padding: 5px;
+}
+#container nav ul {
+	margin: auto;
+	width: 723px;
+}
+
+nav a:hover {
+	color: #D5D40A;
+	text-decoration: underline;
+	font-family: impact;
+	background-color: greenyellow;
+	border: thin #F0EF04 solid;
+	border-radius: 10px;
+	padding: 5px;
+}
+nav a:visited {
+	text-decoration: none;
+	color: #B85211;
+	padding: 5px;
+}
+nav a:active {
+	text-decoration: none;
+	color: #427806;
+	padding: 5px;
+}
+
+aside {
+	width: 150px;
+	float: left;
+	background-color: #B5B5B5;
+	height: 1543px;
+}
+footer {
+	width: 1280px;
+	height: 80px;
+	clear: both;
+	background-color: #B5B5B5;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.column {
+	width: 250px;
+	height: 750px;
+	float: left;
+	margin-left: 35px;
+	margin-right: 54px;
+}
+video {
+	width: 600px;
+	margin: auto;
+	height: 600px;
+	padding-top: 44px;
+}
+
+
+/*This is a media query for tablet view*/
+@media (max-width: 1024px){
+	#container{
+		width: 768px;
+	}
+	
+	header{
+		width: 768px;
+	}
+	
+	nav{
+		width: 768px;
+	}
+	
+	main{
+	width: 598px;
+	height: 2537px;
+	float: left;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	}
+	
+	footer{
+		width: 768px;
+	}
+.column {
+	margin-left: 30px;
+	margin-right: 12px;
+	margin-top: 21px;
+}
+
+}
+
+/*Media query for phone view*/
+@media only screen and (max-width:375px){
+	#container{
+		width: 300px;
+	}
+	
+	header{
+		width: 300px;
+		background-image: url("../image/header300.jpg");
+	}
+	
+	nav{
+	width: 300px;
+	height: 325px;
+	position: static;
+	margin-top: -63px;
+	margin-bottom: 50px;
+	}
+	
+	#container nav li {
+	display: list-item;
+	list-style-type: none;
+	float: none;
+	margin: 0px 0px 20px 0px;
+	width: 260px;
+	text-align: center;	
+	
+}
+	
+	#container nav ul {
+	width: 260px;
+}
+
+	nav a:link {
+	display: block;
+	width: 200px;
+	background-color: #65EBFB;
+	color: white;
+	}
+	
+	nav a:visited {
+	text-decoration: none;
+	color: white;
+}
+	
+	aside{
+		display: none;
+	}
+	
+	main{
+	width: 300px;
+	height: 2500px;
+	}
+form p #user_name {
+	width: 275px;
+}
+form p #user_email {
+	width: 275px;
+}
+form p #user_comment {
+	width: 275px;
+}
+
+
+
+	
+	footer{
+	width: 300px;
+	padding-top: 0px;
+	padding-bottom: 17px;
+	}
+}
